@@ -1,4 +1,3 @@
-Python语言: Codee#22387
 #!/usr/bin/python
 #coding:utf-8
 
@@ -10,7 +9,6 @@ from distutils.core import setup
 import sys
 import os
 import re
-import common
 import py2exe
 includes = ["encodings",
             "encodings.*",
@@ -123,7 +121,7 @@ def pack_file(filename, icon_path):
 
     if(not os.path.exists(py_scriptName)):
         raise Exception("Bad script name, {0} doesn't exists.".format(filename))
-    version_str = str(common.get_version())
+    version_str = "0.1"
     data_files = [(".", [
                             'app.ini',
                             'main.exe.manifest',

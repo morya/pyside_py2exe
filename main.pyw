@@ -4,7 +4,6 @@ import sys
 from PySide import QtGui
 from PySide import QtNetwork
 from PySide import QtWebKit
-from mywebview import MyWebView
 
 class Mainwin( QtGui.QMainWindow ):
     def __init__( self, title = "WindowTitle" ):
