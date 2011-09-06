@@ -185,7 +185,7 @@ if __name__ == '__main__':
         pass
 
     pyScripts = [
-        ('main.pyw', "images/icon.ico" ),
+        ('main.pyw', "images/git.ico" ),
     ]
     
     if len(sys.argv) > 1:
